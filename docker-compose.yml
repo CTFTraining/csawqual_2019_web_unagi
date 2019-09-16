@@ -5,3 +5,5 @@ services:
     image: ctftraining/csaw_2019_web_unagi
     ports:
       - "4361:80"
+    environment:
+      - FLAG=flag{flag_test}
